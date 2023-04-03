@@ -1,0 +1,101 @@
+body {
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+main a {
+  color: #a82423;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #363636;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.6666em;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+ol {
+  list-style: decimal outside;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+ul {
+  list-style: disc outside;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+blockquote {
+  background-color: #f5f5f5;
+  border-left: 5px solid #dbdbdb;
+  padding: 1.25em 1.5em;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: '';
+}
+
+.media {
+  margin-bottom: 1rem;
+}
+
+.hero, pre {
+  box-shadow: 10px 10px 20px #ccc;
+}
+
+pre {
+  background-color: #f5f5f5;
+  color: #4a4a4a;
+  font-size: .875em;
+  overflow-x: auto;
+  padding: 1.25em 1.5em;
+  white-space: pre;
+  word-wrap: normal;
+  margin: 2rem 0 2rem 0;
+}
+
+.post-title {
+  margin-bottom: 2rem;
+}
+
+.site-footer {
+  box-shadow: inset 0 10px 20px 0 #a82423;
+  color: #fff;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+.site-footer a, .site-footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+svg {
+  fill: #a82423;
+}
